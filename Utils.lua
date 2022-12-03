@@ -119,8 +119,8 @@ L.Backdrops = {
 		insets   = { left = 1, right = 2, top = 2, bottom = 2 }
 	},
 	GOSSIP_HILITE = {
-		edgeFile = PT..'Edge_Gossip_Hilite.blp',
-		edgeSize = 4,
+		edgeFile = PT..'Diabolic_Border.tga',
+		edgeSize = 10
 	},
 	GOSSIP_NORMAL = {
 		edgeFile = PT..'Edge_Gossip_Normal.blp',
@@ -128,9 +128,15 @@ L.Backdrops = {
 	},
 	TALKBOX = {
 		bgFile   = PT..'Backdrop_Talkbox.blp',
-		edgeFile = PT..'Edge_Talkbox_BG.blp',
-		edgeSize = 16,
-		insets   = { left = 16, right = 16, top = 16, bottom = 16 }
+		edgeFile = PT..'Diabolic_Border.tga',
+		edgeSize = 24,
+		insets   = { left = 0, right = 0, top = 10, bottom = 10 }
+	},
+	TALKBOX_MAIN_FRAME = {
+		bgFile   = PT..'Backdrop_Talkbox.blp',
+		edgeFile = PT..'Diabolic_Border.tga',
+		edgeSize = 24,
+		insets   = { left = 0, right = 0, top = 10, bottom = 10 }
 	},
 	TALKBOX_HILITE = {
 		edgeFile = PT..'Edge_Gossip_Hilite.blp',
@@ -138,9 +144,15 @@ L.Backdrops = {
 	},
 	TALKBOX_SOLID = {
 		bgFile   = PT..'Backdrop_Talkbox_Solid.blp',
-		edgeFile = PT..'Edge_Talkbox_BG_Solid.blp',
-		edgeSize = 16,
-		insets   = { left = 16, right = 16, top = 16, bottom = 16 }
+		edgeFile = PT..'Diabolic_Border.tga',
+		edgeSize = 24,
+		insets   = { left = 0, right = 0, top = 14, bottom = 14 }
+	},
+	TALKBOX_MAIN_FRAME_SOLID = {
+		bgFile   = PT..'Backdrop_Talkbox_Solid.blp',
+		edgeFile = PT..'Diabolic_Border.tga',
+		edgeSize = 24,
+		insets   = { left = 0, right = 0, top = 10, bottom = 10 }
 	},
 	TOOLTIP_HILITE = {
 		edgeFile = PT..'Edge_Gossip_Hilite.blp',

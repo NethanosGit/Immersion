@@ -117,6 +117,7 @@ function frame:ADDON_LOADED(name)
 
 		-- Show solid background
 		talkbox.BackgroundFrame.SolidBackground:SetShown(L('solidbackground'))
+		L.SetBackdrop(talkbox, L('solidbackground') and L.Backdrops.TALKBOX_MAIN_FRAME_SOLID or L.Backdrops.TALKBOX_MAIN_FRAME)
 		L.SetBackdrop(elements, L('solidbackground') and L.Backdrops.TALKBOX_SOLID or L.Backdrops.TALKBOX)
 
 		-- Set frame ignore for hideUI features on load.
